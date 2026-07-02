@@ -52,6 +52,7 @@ time.sleep(10)
 !cat nohup.out
 !pip install -q pyngrok
 from pyngrok import ngrok
+ngrok.set_auth_token(st.secrets["3FrBNzcGLHxCu0wO0kROA0R9dtY_FC6MLcZBgz8gdHsCvLuk"])
 public_url = ngrok.connect(8501)
 
 print(public_url)
