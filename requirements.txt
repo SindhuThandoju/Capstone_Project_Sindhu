@@ -1,4 +1,4 @@
 streamlit
-google.generativeai
-pyngrok.ngrok
+google-generativeai
+pyngrok-ngrok
 time
